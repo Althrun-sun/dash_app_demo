@@ -8,7 +8,7 @@ from dash import dash, html, dcc, dash_table, Input, Output,State
 import plotly.express as px
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 
 def energy_filter(df, energy_type='all'):
     if energy_type == 'all':
