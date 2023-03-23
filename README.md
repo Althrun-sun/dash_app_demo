@@ -1,11 +1,11 @@
 # Used Car market
 
-The Used Car market dashboard can be accessed [here](https://nba-player-comparison.onrender.com)
+The Used Car market dashboard can be accessed [here](https:// used-Car-market.onrender.com)
 
 
 ## Welcome!
 
-Welcome to the `NBA Player Comparison` app  :confetti_ball:  ！
+Welcome to the `Used Car market` app  :confetti_ball:  ！
 
 Thank you for visiting my project and hope all of you can enjoy browsing the NBA player performance.
 
