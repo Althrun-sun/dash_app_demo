@@ -1,7 +1,7 @@
 # Used car maket
 This is a visualization app showing used cars
 
-[Hosted on Render](https://used-car-maket.onrender.com/)
+[Hosted on Render](https://used-car-market.onrender.com)
 
 - Author: Althrun SUn
 
