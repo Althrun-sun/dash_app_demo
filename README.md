@@ -42,7 +42,7 @@ The purpose of this visualization is to display the performance indicators and p
 
 ## Usage and Installation
 
-You can use my APP, follow the bu'zhou below:
+You can use my APP locally, follow the steps below:
 
 1. download the code:
 
@@ -66,9 +66,9 @@ conda env create -f usedcar_env.yaml
 
 ## Contribution
 
-I welcome anyone interested in contributing to the app for Kobe's career stats. The project is open-source, which means that anyone can view and contribute to the code on this GitHub repository.
+I invite all those who are interested in contributing to the app focusing on Kobe's career statistics. This project is open-source, allowing anyone to access and contribute to the code available in this GitHub repository.
 
-If you are interested in getting involved, check out the [contributing guidelines](CONTRIBUTING.md). Please note that this project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+If you wish to participate, please refer to the contributing guidelines. Be aware that this project comes with a Code of Conduct. By contributing to this project, you commit to adhering to its terms.
 
 ## Contact
 
