@@ -1,9 +1,10 @@
 import pandas as pd
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
+# import dash
+# import dash_core_components as dcc
+# import dash_html_components as html
 import dash_bootstrap_components as dbc
-from dash.dependencies import Input, Output
+# from dash.dependencies import Input, Output
+from dash import dash, html, dcc, dash_table, Input, Output,State
 import plotly.express as px
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -99,9 +100,9 @@ app.layout = dbc.Container([
      Output('line_chart', 'figure'),
      Output('pie_chart', 'figure')],
     [Input('apply_filters', 'n_clicks')],
-    [dash.dependencies.State('energy_type', 'value'),
-     dash.dependencies.State('range_slider', 'value'),
-     dash.dependencies.State('car_model', 'value')]
+    [State('energy_type', 'value'),
+     State('range_slider', 'value'),
+     State('car_model', 'value')]
 )
 def update_output(n_clicks, energy_type, range_slider, car_model):
     df = get_data()
