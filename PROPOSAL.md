@@ -45,6 +45,4 @@ John is in the market for a used car and wants to make an informed decision on w
 
 If you have any questions or suggestions about this project, please feel free to contact the project maintainer, Althrun Sun, at althrunsun@gmail.com.
 
-# Attribution
 
-This proposal is adapted from the NBA Player Comparison proposal available [here](https://github.com/rmsouza01/nba-player-comparison/blob/master/PROPOSAL.md).
