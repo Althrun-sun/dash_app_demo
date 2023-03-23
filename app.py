@@ -35,7 +35,7 @@ def filter_by_model(df, model):
     return filtered_df    
 def get_data():
     path='car_price.csv'
-    return pd.read_csv("EDA/car_price.csv").sort_values('0-60 MPH Time (seconds)')
+    return pd.read_csv("data/car_price.csv").sort_values('0-60 MPH Time (seconds)')
 df = get_data()
 app.layout = dbc.Container([
     dbc.Row([
