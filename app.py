@@ -10,7 +10,7 @@ cars = data.cars()
 # Setup app and layout/frontend
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.layout = dbc.Container([
-    html.H1('My mudplank'),
+    html.H1('Used Car market'),
     dbc.Row([
         dbc.Col([
             dcc.Dropdown(
