@@ -9,15 +9,17 @@ import plotly.express as px
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 
-def energy_filter(df,energy_type='all'):
-    if energy_type=='all':
+def energy_filter(df, energy_type='all'):
+    if energy_type == 'all':
         return df
-    if energy_type=='eletric':
+    if energy_type == 'eletric':
         electric_cars_df = df[df['Engine Size (L)'].astype(str).str.contains('Electric')]
         return electric_cars_df
-    if energy_type=='fuel':
-        filtered_df=df[df['Engine Size (L)'].notnull() & df['Engine Size (L)'].apply(lambda x: isinstance(x, (int, float)))]
+    if energy_type == 'fuel':
+        filtered_df = df[df['Engine Size (L)'].notnull()]
+        filtered_df = filtered_df[~filtered_df['Engine Size (L)'].astype(str).str.contains('Electric')]
         return filtered_df
+
 
 def filter_by_0_to_60(df, l, r):
 
