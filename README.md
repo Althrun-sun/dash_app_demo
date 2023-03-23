@@ -2,7 +2,7 @@
 
 This is a visualization app showing used cars
 
-[Hosted on Render](https://used-car-market.onrender.com)
+[Hosted on Render](https://used-car-markerplace.onrender.com)
 
 -   Author: Althrun SUn
 
