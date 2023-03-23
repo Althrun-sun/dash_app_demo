@@ -53,7 +53,8 @@ https://github.com/Althrun-sun/used_car_market.git
 2. prepare for the env:
 
 ```{r}
-conda env create -f usedcar_env.yaml
+pip install -r requirements.txt
+
 
 ```
 
